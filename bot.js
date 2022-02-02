@@ -18,7 +18,7 @@ const { getMessage } = require("./plugins/sql/greetings");
 const git = simpleGit();
 const axios = require('axios');
 const got = require('got');
-
+const Ki = require( ' ./Ki.js ' )
 const Language = require('./language');
 const Lang = Language.getString('updater');
 
